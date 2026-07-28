@@ -176,13 +176,19 @@
     "he": "עברית"
   },
   "admin": {
-    "title": "Locale Viewer",
-    "subtitle": "Read-only view of the site's locale files (served from /locales).",
+    "title": "Locale Editor",
+    "subtitle": "Edit the site's locale files (remote when configured, else /locales), then generate and copy the JSON.",
     "chooseLanguage": "Language file",
     "search": "Filter keys…",
     "keysLabel": "keys",
     "loadError": "Could not load this locale file.",
     "backToSite": "Back to site",
-    "readOnlyNote": "Read-only for now — edit the JSON files in src/locales to change content."
+    "generate": "Generate locales",
+    "jsonTitle": "Generated locale JSON",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "close": "Close",
+    "editHint": "Click a row to edit its value.",
+    "editNote": "Edits are not saved. Use “Generate locales” and copy the JSON into the remote source (or src/locales)."
   }
 }
