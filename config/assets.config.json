@@ -63,6 +63,14 @@
       "alt": "Featured cake close-up",
       "src": "https://lh3.googleusercontent.com/d/1dM8NYLYQuE0LmJjBS6ehszuRVC4hjORz=w1600"
     },
+    "desserts": {
+      "description": "'Desserts' band background (light band with dark copy)",
+      "usedIn": ["home:desserts"],
+      "aspectRatio": "16/9",
+      "gradient": "linear-gradient(135deg, #e9ddcf, #c9b49a)",
+      "alt": "Assorted plated desserts",
+      "src": "https://lh3.googleusercontent.com/d/1dDBP2L5oXlCBDUogBuGoy0yFx8DuhUN_=w1600"
+    },
     "cafe": {
       "description": "About page — 'Our Place' café photo",
       "usedIn": ["about:ourPlace"],
