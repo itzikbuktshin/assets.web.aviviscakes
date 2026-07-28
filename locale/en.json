@@ -1,8 +1,19 @@
 {
-  "meta": { "name": "English", "dir": "ltr" },
+  "meta": {
+    "name": "English",
+    "dir": "ltr"
+  },
   "brand": "Avivi's Cakes",
   "infoBar": "16 Zinger st, Givat Shmuel  |  Daily 9AM-10PM",
-  "nav": { "home": "Home", "menu": "Menu", "menuNew": "Menu (New)", "about": "About", "admin": "Admin", "close": "Close menu", "open": "Open menu" },
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "menuNew": "Menu (New)",
+    "about": "About",
+    "admin": "Admin",
+    "close": "Close menu",
+    "open": "Open menu"
+  },
   "home": {
     "handMade": "HAND MADE",
     "pastries": "PASTRIES",
@@ -43,32 +54,98 @@
     },
     "items": {
       "parve": [
-        { "name": "Chocolate & Yeast layered Cake", "sub": "עוגת שמרים שכבות ושוקולד" },
-        { "name": "Poppy Seed Yeast roll cake", "sub": "רולדת שמרים ופרג" },
-        { "name": "Chocolate Yeast Roll Cake", "sub": "רולדת שמרים שוקולד" },
-        { "name": "Cinnamon & Nuts Yeast Roll", "sub": "רולדת שמרים קינמון ואגוזים" },
-        { "name": "Halva Yeast Roll", "sub": "רולדת שמרים חלווה" },
-        { "name": "Chocolate Cake", "sub": "עוגת שוקולד" },
-        { "name": "Brownies Cake", "sub": "עוגת בראוניז" },
-        { "name": "Krembo Cake", "sub": "עוגת קרמבו" }
+        {
+          "name": "Chocolate & Yeast layered Cake",
+          "sub": "Yeast and chocolate cake"
+        },
+        {
+          "name": "Poppy Seed Yeast roll cake",
+          "sub": "Poppy seed yeast roll"
+        },
+        {
+          "name": "Chocolate Yeast Roll Cake",
+          "sub": "Chocolate seed yeast roll"
+        },
+        {
+          "name": "Cinnamon & Nuts Yeast Roll",
+          "sub": "Cinnamon and nut yeast roll"
+        },
+        {
+          "name": "Halva Yeast Roll",
+          "sub": "Halva Yeast Roll"
+        },
+        {
+          "name": "Chocolate Cake",
+          "sub": "Chocolate Cake"
+        },
+        {
+          "name": "Brownies Cake",
+          "sub": "Brownies Cake"
+        },
+        {
+          "name": "Krembo Cake",
+          "sub": "Krembo Cake"
+        }
       ],
       "dairy": [
-        { "name": "Nutella Chocolate & Yeast Roll", "sub": "רולדת שמרים שוקולד נוטלה" },
-        { "name": "Crumbs Cheese Cake", "sub": "עוגת גבינה עם פירורים" },
-        { "name": "Baked Cheese Cake", "sub": "עוגת גבינה אפויה" },
-        { "name": "Cremeschnitte Cake", "sub": "עוגת קרמשניט" },
-        { "name": "Krembo Cake", "sub": "עוגת קרמבו" }
+        {
+          "name": "Nutella Chocolate & Yeast Roll",
+          "sub": "Nutella Chocolate & Yeast Roll"
+        },
+        {
+          "name": "Crumbs Cheese Cake",
+          "sub": "Crumbs Cheese Cake"
+        },
+        {
+          "name": "Baked Cheese Cake",
+          "sub": "Baked Cheese Cake"
+        },
+        {
+          "name": "Cremeschnitte Cake",
+          "sub": "Cremeschnitte Cake"
+        },
+        {
+          "name": "Krembo Cake",
+          "sub": "Krembo Cake"
+        }
       ],
       "dessert": [
-        { "name": "Personal Chocolate dessert", "sub": "קינוחי שוקולד אישיים" },
-        { "name": "Truffles", "sub": "כדורי טראפלס שוקולד" },
-        { "name": "Macaron", "sub": "מקרון במגוון צבעים וטעמים" },
-        { "name": "Cinnamon Rolls", "sub": "מקלות קינמון" },
-        { "name": "Chocolate Coffee Bars", "sub": "אצבעות שוקולד קפה על בסיס שברי וופלים" },
-        { "name": "Croissant", "sub": "מיני קרואסון שוקולד" },
-        { "name": "Tricholad With Meringue", "sub": "כוסיות טריקולד" },
-        { "name": "Mousse with Meringue Cup", "sub": "כוסיות מוס שוקולד על בסיס מרנג" },
-        { "name": "Chocolate Soufflé", "sub": "סופלה שוקולד" }
+        {
+          "name": "Personal Chocolate dessert",
+          "sub": "Personal Chocolate dessert"
+        },
+        {
+          "name": "Truffles",
+          "sub": "Truffles"
+        },
+        {
+          "name": "Macaron",
+          "sub": "Macaron"
+        },
+        {
+          "name": "Cinnamon Rolls",
+          "sub": "Cinnamon Rolls"
+        },
+        {
+          "name": "Chocolate Coffee Bars",
+          "sub": "Chocolate Coffee Bars"
+        },
+        {
+          "name": "Croissant",
+          "sub": "Croissant"
+        },
+        {
+          "name": "Tricholad With Meringue",
+          "sub": "Tricholad With Meringue"
+        },
+        {
+          "name": "Mousse with Meringue Cup",
+          "sub": "Mousse with Meringue Cup"
+        },
+        {
+          "name": "Chocolate Soufflé",
+          "sub": "Chocolate Soufflé"
+        }
       ]
     }
   },
@@ -86,8 +163,18 @@
     "subscribed": "Thanks! Your email app will open to send us your subscription.",
     "contactUs": "Contact Us"
   },
-  "contactBar": { "phone": "Phone", "email": "Email", "whatsapp": "WhatsApp", "chat": "Chat", "letsChat": "Let's Chat!" },
-  "language": { "label": "Language", "en": "English", "he": "עברית" },
+  "contactBar": {
+    "phone": "Phone",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "chat": "Chat",
+    "letsChat": "Let's Chat!"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "he": "עברית"
+  },
   "admin": {
     "title": "Locale Viewer",
     "subtitle": "Read-only view of the site's locale files (served from /locales).",
