@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://aviviscakes.com/schemas/assets.config.json",
+  "title": "Avivi's Cakes assets config",
+  "description": "Catalog of image placeholders. Each slot has a gradient fallback and an optional `src`; when `src` is null the site renders the gradient.",
+  "type": "object",
+  "required": ["version", "source", "site", "menu"],
+  "additionalProperties": true,
+  "properties": {
+    "$schema": { "type": "string" },
+    "version": { "type": "integer", "minimum": 1 },
+    "comment": { "type": "string" },
+    "source": { "enum": ["local", "remote"] },
+    "remote": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "enabled": { "type": "boolean" },
+        "configUrl": { "type": ["string", "null"], "format": "uri" },
+        "assetsBaseUrl": { "type": ["string", "null"], "format": "uri" }
+      }
+    },
+    "defaults": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "fallback": { "enum": ["gradient", "none"] },
+        "backgroundSize": { "type": "string" },
+        "backgroundPosition": { "type": "string" }
+      }
+    },
+    "site": {
+      "type": "object",
+      "description": "Named site-wide image slots (hero/section backgrounds).",
+      "additionalProperties": { "$ref": "#/definitions/slot" }
+    },
+    "menu": {
+      "type": "object",
+      "description": "Per-category ordered lists of product-photo slots (index matches the menu item order).",
+      "additionalProperties": {
+        "type": "array",
+        "items": { "$ref": "#/definitions/slot" }
+      }
+    }
+  },
+  "definitions": {
+    "slot": {
+      "type": "object",
+      "required": ["gradient", "src"],
+      "additionalProperties": false,
+      "properties": {
+        "item": { "type": "string", "description": "Product name this photo belongs to (menu slots only)." },
+        "description": { "type": "string" },
+        "usedIn": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^[a-zA-Z]+:[a-zA-Z]+$" },
+          "description": "page:section identifiers where this slot renders."
+        },
+        "aspectRatio": { "type": "string", "pattern": "^[0-9]+/[0-9]+$" },
+        "gradient": { "type": "string", "description": "CSS background fallback used when src is null." },
+        "alt": { "type": "string", "description": "Accessible alt text for the image." },
+        "src": {
+          "type": ["string", "null"],
+          "description": "Image URL (absolute, or relative to remote.assetsBaseUrl). Null = use gradient."
+        }
+      }
+    }
+  }
+}
