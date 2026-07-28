@@ -1,0 +1,101 @@
+{
+  "meta": { "name": "English", "dir": "ltr" },
+  "brand": "Avivi's Cakes",
+  "infoBar": "16 Zinger st, Givat Shmuel  |  Daily 9AM-10PM",
+  "nav": { "home": "Home", "menu": "Menu", "menuNew": "Menu (New)", "about": "About", "admin": "Admin", "close": "Close menu", "open": "Open menu" },
+  "home": {
+    "handMade": "HAND MADE",
+    "pastries": "PASTRIES",
+    "ourPastries": "OUR PASTRIES",
+    "fresh": "Fresh n' Tasty!",
+    "ourPastriesBody": "Handmade pastries, baked fresh every morning from family recipes.",
+    "enjoy": "ENJOY",
+    "sugarFree": "SUGAR FREE",
+    "glutenFree": "GLUTEN FREE",
+    "desserts": "DESSERTS",
+    "dessertsBody": "Individual desserts, mousse cups and chocolate treats for every occasion.",
+    "cateringMore": "CATERING & MORE",
+    "events": "events",
+    "makeWish": "MAKE A WISH",
+    "doubleTap": "#DOUBLE TAP",
+    "ctaPastries": "PASTRIES",
+    "ctaMenu": "MENU"
+  },
+  "about": {
+    "eyebrow": "ABOUT",
+    "title": "AVIVI'S CAKES",
+    "ourPlace": "OUR PLACE",
+    "tagline": "We just love making Pastries!",
+    "body": "A neighborhood bakery in Givat Shmuel, turning out fresh handmade pastries, cakes and desserts every day."
+  },
+  "menu": {
+    "eyebrow": "OUR",
+    "title": "PASTRIES LIST",
+    "parveLabel": "Parve Pastries",
+    "dairyFree": "Dairy Free",
+    "gsfNote": "Gluten- and sugar-free options available — contact us to order.",
+    "contactUs": "Contact Us",
+    "sections": {
+      "parve": "PARVE",
+      "dairy": "DAIRY",
+      "dessert": "DESSERT",
+      "gsf": "GLUTEN / SUGAR FREE"
+    },
+    "items": {
+      "parve": [
+        { "name": "Chocolate & Yeast layered Cake", "sub": "עוגת שמרים שכבות ושוקולד" },
+        { "name": "Poppy Seed Yeast roll cake", "sub": "רולדת שמרים ופרג" },
+        { "name": "Chocolate Yeast Roll Cake", "sub": "רולדת שמרים שוקולד" },
+        { "name": "Cinnamon & Nuts Yeast Roll", "sub": "רולדת שמרים קינמון ואגוזים" },
+        { "name": "Halva Yeast Roll", "sub": "רולדת שמרים חלווה" },
+        { "name": "Chocolate Cake", "sub": "עוגת שוקולד" },
+        { "name": "Brownies Cake", "sub": "עוגת בראוניז" },
+        { "name": "Krembo Cake", "sub": "עוגת קרמבו" }
+      ],
+      "dairy": [
+        { "name": "Nutella Chocolate & Yeast Roll", "sub": "רולדת שמרים שוקולד נוטלה" },
+        { "name": "Crumbs Cheese Cake", "sub": "עוגת גבינה עם פירורים" },
+        { "name": "Baked Cheese Cake", "sub": "עוגת גבינה אפויה" },
+        { "name": "Cremeschnitte Cake", "sub": "עוגת קרמשניט" },
+        { "name": "Krembo Cake", "sub": "עוגת קרמבו" }
+      ],
+      "dessert": [
+        { "name": "Personal Chocolate dessert", "sub": "קינוחי שוקולד אישיים" },
+        { "name": "Truffles", "sub": "כדורי טראפלס שוקולד" },
+        { "name": "Macaron", "sub": "מקרון במגוון צבעים וטעמים" },
+        { "name": "Cinnamon Rolls", "sub": "מקלות קינמון" },
+        { "name": "Chocolate Coffee Bars", "sub": "אצבעות שוקולד קפה על בסיס שברי וופלים" },
+        { "name": "Croissant", "sub": "מיני קרואסון שוקולד" },
+        { "name": "Tricholad With Meringue", "sub": "כוסיות טריקולד" },
+        { "name": "Mousse with Meringue Cup", "sub": "כוסיות מוס שוקולד על בסיס מרנג" },
+        { "name": "Chocolate Soufflé", "sub": "סופלה שוקולד" }
+      ]
+    }
+  },
+  "footer": {
+    "address": "ADDRESS",
+    "addressValue": "16 Zinger St.\nGivat Shmuel",
+    "hours": "HOURS",
+    "hoursValue": "Open Daily\n9AM-10PM",
+    "contact": "CONTACT",
+    "contactEmail": "zachi@aviviscakes.com",
+    "contactPhone": "Tel: 050-750-9198",
+    "mailing": "MAILING LIST",
+    "emailPlaceholder": "Email Address",
+    "subscribe": "Subscribe",
+    "subscribed": "Thanks! Your email app will open to send us your subscription.",
+    "contactUs": "Contact Us"
+  },
+  "contactBar": { "phone": "Phone", "email": "Email", "whatsapp": "WhatsApp", "chat": "Chat", "letsChat": "Let's Chat!" },
+  "language": { "label": "Language", "en": "English", "he": "עברית" },
+  "admin": {
+    "title": "Locale Viewer",
+    "subtitle": "Read-only view of the site's locale files (served from /locales).",
+    "chooseLanguage": "Language file",
+    "search": "Filter keys…",
+    "keysLabel": "keys",
+    "loadError": "Could not load this locale file.",
+    "backToSite": "Back to site",
+    "readOnlyNote": "Read-only for now — edit the JSON files in src/locales to change content."
+  }
+}

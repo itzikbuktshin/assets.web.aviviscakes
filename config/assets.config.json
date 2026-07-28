@@ -1,0 +1,105 @@
+{
+  "$schema": "./assets.schema.json",
+  "version": 1,
+  "comment": "Catalog of every image placeholder in the site. `src` is null until a real image is supplied; components fall back to `gradient`. Phase 2: this file (and the referenced images) will be served from remote/external storage so admins can edit it privately — see `remote`.",
+  "source": "local",
+  "remote": {
+    "enabled": false,
+    "configUrl": null,
+    "assetsBaseUrl": null,
+    "comment": "Phase 2: set enabled=true, configUrl to the remote assets.config.json, and assetsBaseUrl to the external storage root. Relative `src` values are resolved against assetsBaseUrl."
+  },
+  "defaults": {
+    "fallback": "gradient",
+    "backgroundSize": "cover",
+    "backgroundPosition": "center"
+  },
+  "site": {
+    "pastry": {
+      "description": "Handmade pastries — hero photo (square, 'HAND MADE' overlay)",
+      "usedIn": ["home:hero", "pastries:hero"],
+      "aspectRatio": "1/1",
+      "gradient": "linear-gradient(135deg, #c79a5f, #6d4423)",
+      "alt": "Assortment of handmade pastries",
+      "src": null
+    },
+    "tart": {
+      "description": "'Our Pastries' band — chocolate tart split image",
+      "usedIn": ["home:ourPastries"],
+      "aspectRatio": "3/2",
+      "gradient": "linear-gradient(135deg, #5a3722, #2a160c)",
+      "alt": "Chocolate tart with cream",
+      "src": null
+    },
+    "babka": {
+      "description": "'Sugar Free' full-bleed section background",
+      "usedIn": ["home:sugarFree"],
+      "aspectRatio": "16/9",
+      "gradient": "linear-gradient(135deg, #4e3320, #1e120a)",
+      "alt": "Sugar-free chocolate babka",
+      "src": null
+    },
+    "marble": {
+      "description": "'Gluten Free' full-bleed section background",
+      "usedIn": ["home:glutenFree"],
+      "aspectRatio": "16/9",
+      "gradient": "linear-gradient(135deg, #caa46e, #7a5730)",
+      "alt": "Gluten-free marble cake",
+      "src": null
+    },
+    "macaron": {
+      "description": "'Catering & More / Events' full-bleed section background",
+      "usedIn": ["home:catering"],
+      "aspectRatio": "16/9",
+      "gradient": "linear-gradient(135deg, #e79bb4, #c96f9a)",
+      "alt": "Colorful macarons for events",
+      "src": null
+    },
+    "doubleTap": {
+      "description": "'#DOUBLE TAP' full-bleed feature band",
+      "usedIn": ["home:doubleTap"],
+      "aspectRatio": "16/9",
+      "gradient": "linear-gradient(135deg, #efe9df, #e7dccf)",
+      "alt": "Featured cake close-up",
+      "src": null
+    },
+    "cafe": {
+      "description": "About page — 'Our Place' café photo",
+      "usedIn": ["about:ourPlace"],
+      "aspectRatio": "21/9",
+      "gradient": "linear-gradient(135deg, #b7a7c9, #6f5d86)",
+      "alt": "Inside the Avivi's Cakes bakery",
+      "src": null
+    }
+  },
+  "menu": {
+    "parve": [
+      { "item": "Chocolate & Yeast layered Cake", "aspectRatio": "4/3", "gradient": "linear-gradient(135deg,#7a4a25,#3c2412)", "alt": "Chocolate & yeast layered cake", "src": null },
+      { "item": "Poppy Seed Yeast roll cake", "aspectRatio": "4/3", "gradient": "linear-gradient(135deg,#5a5468,#2a2636)", "alt": "Poppy seed yeast roll cake", "src": null },
+      { "item": "Chocolate Yeast Roll Cake", "aspectRatio": "4/3", "gradient": "linear-gradient(135deg,#6e4326,#2e1a0f)", "alt": "Chocolate yeast roll cake", "src": null },
+      { "item": "Cinnamon & Nuts Yeast Roll", "aspectRatio": "4/3", "gradient": "linear-gradient(135deg,#a9784a,#5c3a1e)", "alt": "Cinnamon & nuts yeast roll", "src": null },
+      { "item": "Halva Yeast Roll", "aspectRatio": "4/3", "gradient": "linear-gradient(135deg,#c9b48f,#8a7551)", "alt": "Halva yeast roll", "src": null },
+      { "item": "Chocolate Cake", "aspectRatio": "4/3", "gradient": "linear-gradient(135deg,#4a2c18,#1d100a)", "alt": "Chocolate cake", "src": null },
+      { "item": "Brownies Cake", "aspectRatio": "4/3", "gradient": "linear-gradient(135deg,#3a2216,#140b07)", "alt": "Brownies cake", "src": null },
+      { "item": "Krembo Cake", "aspectRatio": "4/3", "gradient": "linear-gradient(135deg,#5b4636,#241a12)", "alt": "Krembo cake", "src": null }
+    ],
+    "dairy": [
+      { "item": "Nutella Chocolate & Yeast Roll", "aspectRatio": "4/3", "gradient": "linear-gradient(135deg,#6b4326,#2b1a0f)", "alt": "Nutella chocolate & yeast roll", "src": null },
+      { "item": "Crumbs Cheese Cake", "aspectRatio": "4/3", "gradient": "linear-gradient(135deg,#e6d6ad,#b39b6a)", "alt": "Crumbs cheese cake", "src": null },
+      { "item": "Baked Cheese Cake", "aspectRatio": "4/3", "gradient": "linear-gradient(135deg,#e9c98f,#c39a54)", "alt": "Baked cheese cake", "src": null },
+      { "item": "Cremeschnitte Cake", "aspectRatio": "4/3", "gradient": "linear-gradient(135deg,#f0e6cf,#c9b183)", "alt": "Cremeschnitte cake", "src": null },
+      { "item": "Krembo Cake", "aspectRatio": "4/3", "gradient": "linear-gradient(135deg,#5b4636,#241a12)", "alt": "Krembo cake", "src": null }
+    ],
+    "dessert": [
+      { "item": "Personal Chocolate dessert", "aspectRatio": "4/3", "gradient": "linear-gradient(135deg,#4a2c18,#1d100a)", "alt": "Personal chocolate dessert", "src": null },
+      { "item": "Truffles", "aspectRatio": "4/3", "gradient": "linear-gradient(135deg,#3a2216,#140b07)", "alt": "Chocolate truffles", "src": null },
+      { "item": "Macaron", "aspectRatio": "4/3", "gradient": "linear-gradient(135deg,#e79bb4,#c96f9a)", "alt": "Macarons", "src": null },
+      { "item": "Cinnamon Rolls", "aspectRatio": "4/3", "gradient": "linear-gradient(135deg,#b38351,#6d4423)", "alt": "Cinnamon rolls", "src": null },
+      { "item": "Chocolate Coffee Bars", "aspectRatio": "4/3", "gradient": "linear-gradient(135deg,#5a3a22,#241408)", "alt": "Chocolate coffee bars", "src": null },
+      { "item": "Croissant", "aspectRatio": "4/3", "gradient": "linear-gradient(135deg,#d8a860,#9c6f33)", "alt": "Mini chocolate croissant", "src": null },
+      { "item": "Tricholad With Meringue", "aspectRatio": "4/3", "gradient": "linear-gradient(135deg,#c7aee0,#8a6bb0)", "alt": "Tricholad with meringue", "src": null },
+      { "item": "Mousse with Meringue Cup", "aspectRatio": "4/3", "gradient": "linear-gradient(135deg,#6e5236,#2e2013)", "alt": "Chocolate mousse cup with meringue", "src": null },
+      { "item": "Chocolate Soufflé", "aspectRatio": "4/3", "gradient": "linear-gradient(135deg,#3f2416,#160c07)", "alt": "Chocolate soufflé", "src": null }
+    ]
+  }
+}

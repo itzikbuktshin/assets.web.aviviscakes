@@ -1,0 +1,101 @@
+{
+  "meta": { "name": "עברית", "dir": "rtl" },
+  "brand": "Avivi's Cakes",
+  "infoBar": "רחוב זינגר 16, גבעת שמואל  |  כל יום 09:00-22:00",
+  "nav": { "home": "בית", "menu": "תפריט", "menuNew": "תפריט (חדש)", "about": "אודות", "admin": "ניהול", "close": "סגירת תפריט", "open": "פתיחת תפריט" },
+  "home": {
+    "handMade": "עבודת יד",
+    "pastries": "מאפים",
+    "ourPastries": "המאפים שלנו",
+    "fresh": "טרי וטעים!",
+    "ourPastriesBody": "מאפים בעבודת יד, נאפים טריים כל בוקר לפי מתכונים משפחתיים.",
+    "enjoy": "תיהנו",
+    "sugarFree": "ללא סוכר",
+    "glutenFree": "ללא גלוטן",
+    "desserts": "קינוחים",
+    "dessertsBody": "קינוחים אישיים, כוסיות מוס ופינוקי שוקולד לכל אירוע.",
+    "cateringMore": "קייטרינג ואירועים",
+    "events": "אירועים",
+    "makeWish": "הגשמת משאלה",
+    "doubleTap": "#לחצו פעמיים",
+    "ctaPastries": "מאפים",
+    "ctaMenu": "תפריט"
+  },
+  "about": {
+    "eyebrow": "אודות",
+    "title": "העוגות של אביבי",
+    "ourPlace": "המקום שלנו",
+    "tagline": "אנחנו פשוט אוהבים להכין מאפים!",
+    "body": "מאפייה שכונתית בגבעת שמואל, שמוציאה מדי יום מאפים, עוגות וקינוחים טריים בעבודת יד."
+  },
+  "menu": {
+    "eyebrow": "ה",
+    "title": "רשימת מאפים",
+    "parveLabel": "מאפים פרווה",
+    "dairyFree": "ללא חלב",
+    "gsfNote": "אפשרויות ללא גלוטן וללא סוכר — צרו קשר להזמנה.",
+    "contactUs": "צור קשר",
+    "sections": {
+      "parve": "פרווה",
+      "dairy": "חלבי",
+      "dessert": "קינוח",
+      "gsf": "ללא גלוטן / סוכר"
+    },
+    "items": {
+      "parve": [
+        { "name": "עוגת שמרים שכבות ושוקולד", "sub": "Chocolate & Yeast layered Cake" },
+        { "name": "רולדת שמרים ופרג", "sub": "Poppy Seed Yeast roll cake" },
+        { "name": "רולדת שמרים שוקולד", "sub": "Chocolate Yeast Roll Cake" },
+        { "name": "רולדת שמרים קינמון ואגוזים", "sub": "Cinnamon & Nuts Yeast Roll" },
+        { "name": "רולדת שמרים חלווה", "sub": "Halva Yeast Roll" },
+        { "name": "עוגת שוקולד", "sub": "Chocolate Cake" },
+        { "name": "עוגת בראוניז", "sub": "Brownies Cake" },
+        { "name": "עוגת קרמבו", "sub": "Krembo Cake" }
+      ],
+      "dairy": [
+        { "name": "רולדת שמרים שוקולד נוטלה", "sub": "Nutella Chocolate & Yeast Roll" },
+        { "name": "עוגת גבינה עם פירורים", "sub": "Crumbs Cheese Cake" },
+        { "name": "עוגת גבינה אפויה", "sub": "Baked Cheese Cake" },
+        { "name": "עוגת קרמשניט", "sub": "Cremeschnitte Cake" },
+        { "name": "עוגת קרמבו", "sub": "Krembo Cake" }
+      ],
+      "dessert": [
+        { "name": "קינוחי שוקולד אישיים", "sub": "Personal Chocolate dessert" },
+        { "name": "כדורי טראפלס שוקולד", "sub": "Truffles" },
+        { "name": "מקרון במגוון צבעים וטעמים", "sub": "Macaron" },
+        { "name": "מקלות קינמון", "sub": "Cinnamon Rolls" },
+        { "name": "אצבעות שוקולד קפה על בסיס שברי וופלים", "sub": "Chocolate Coffee Bars" },
+        { "name": "מיני קרואסון שוקולד", "sub": "Croissant" },
+        { "name": "כוסיות טריקולד", "sub": "Tricholad With Meringue" },
+        { "name": "כוסיות מוס שוקולד על בסיס מרנג", "sub": "Mousse with Meringue Cup" },
+        { "name": "סופלה שוקולד", "sub": "Chocolate Soufflé" }
+      ]
+    }
+  },
+  "footer": {
+    "address": "כתובת",
+    "addressValue": "רחוב זינגר 16\nגבעת שמואל",
+    "hours": "שעות",
+    "hoursValue": "פתוח כל יום\n09:00-22:00",
+    "contact": "צור קשר",
+    "contactEmail": "zachi@aviviscakes.com",
+    "contactPhone": "טלפון: 050-750-9198",
+    "mailing": "רשימת תפוצה",
+    "emailPlaceholder": "כתובת אימייל",
+    "subscribe": "הרשמה",
+    "subscribed": "תודה! תוכנת הדוא\"ל שלכם תיפתח לשליחת ההרשמה אלינו.",
+    "contactUs": "צור קשר"
+  },
+  "contactBar": { "phone": "טלפון", "email": "אימייל", "whatsapp": "וואטסאפ", "chat": "צ'אט", "letsChat": "בואו נדבר!" },
+  "language": { "label": "שפה", "en": "English", "he": "עברית" },
+  "admin": {
+    "title": "מציג שפות",
+    "subtitle": "תצוגה בלבד של קובצי השפה של האתר (מוגשים מ-/locales).",
+    "chooseLanguage": "קובץ שפה",
+    "search": "סינון מפתחות…",
+    "keysLabel": "מפתחות",
+    "loadError": "טעינת קובץ השפה נכשלה.",
+    "backToSite": "חזרה לאתר",
+    "readOnlyNote": "תצוגה בלבד בשלב זה — ערכו את קובצי ה-JSON בתיקיית src/locales כדי לשנות תוכן."
+  }
+}
