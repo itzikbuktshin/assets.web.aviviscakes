@@ -95,6 +95,46 @@
       "gradient": "linear-gradient(135deg, #b7a7c9, #6f5d86)",
       "alt": "Inside the Avivi's Cakes bakery",
       "src": "https://lh3.googleusercontent.com/d/15rIqrTuqRgC6kqo-6TWiuRbl49SKPMMp=w1600"
+    },
+    "menuHeaderParve": {
+      "description": "Menu page — Parve category header band background",
+      "usedIn": [
+        "menu:parve"
+      ],
+      "aspectRatio": "16/9",
+      "gradient": "linear-gradient(135deg, #7a4a25, #2e1a0f)",
+      "alt": "Assorted parve pastries",
+      "src": null
+    },
+    "menuHeaderDairy": {
+      "description": "Menu page — Dairy category header band background",
+      "usedIn": [
+        "menu:dairy"
+      ],
+      "aspectRatio": "16/9",
+      "gradient": "linear-gradient(135deg, #e9c98f, #a5793f)",
+      "alt": "Assorted dairy cakes",
+      "src": null
+    },
+    "menuHeaderDessert": {
+      "description": "Menu page — Dessert category header band background",
+      "usedIn": [
+        "menu:dessert"
+      ],
+      "aspectRatio": "16/9",
+      "gradient": "linear-gradient(135deg, #c7aee0, #6f5d86)",
+      "alt": "Assorted plated desserts",
+      "src": null
+    },
+    "menuHeaderGsf": {
+      "description": "Menu page — Gluten/Sugar-Free category header band background",
+      "usedIn": [
+        "menu:gsf"
+      ],
+      "aspectRatio": "16/9",
+      "gradient": "linear-gradient(135deg, #caa46e, #5c3a1e)",
+      "alt": "Gluten and sugar-free treats",
+      "src": null
     }
   },
   "menu": {
