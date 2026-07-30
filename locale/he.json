@@ -1,8 +1,19 @@
 {
-  "meta": { "name": "עברית", "dir": "rtl" },
+  "meta": {
+    "name": "עברית",
+    "dir": "rtl"
+  },
   "brand": "Avivi's Cakes",
   "infoBar": "רחוב זינגר 16, גבעת שמואל  |  כל יום 09:00-22:00",
-  "nav": { "home": "בית", "menu": "תפריט", "menuNew": "תפריט (חדש)", "about": "אודות", "admin": "ניהול", "close": "סגירת תפריט", "open": "פתיחת תפריט" },
+  "nav": {
+    "home": "בית",
+    "menu": "תפריט",
+    "about": "אודות",
+    "admin": "ניהול",
+    "close": "סגירת תפריט",
+    "open": "פתיחת תפריט",
+    "menuNew": "תפריט (חדש)"
+  },
   "home": {
     "handMade": "עבודת יד",
     "pastries": "מאפים",
@@ -19,7 +30,8 @@
     "makeWish": "הגשמת משאלה",
     "doubleTap": "#לחצו פעמיים",
     "ctaPastries": "מאפים",
-    "ctaMenu": "תפריט"
+    "ctaMenu": "תפריט",
+    "seePastries": "לצפייה במאפים שלנו"
   },
   "about": {
     "eyebrow": "אודות",
@@ -30,6 +42,7 @@
   },
   "menu": {
     "eyebrow": "ה",
+    "pastries": "מאפים",
     "title": "רשימת מאפים",
     "parveLabel": "מאפים פרווה",
     "dairyFree": "ללא חלב",
@@ -41,34 +54,106 @@
       "dessert": "קינוח",
       "gsf": "ללא גלוטן / סוכר"
     },
+    "subtitles": {
+      "parve": "מאפים פרווה",
+      "dairy": "מאפים חלביים",
+      "dessert": "קינוחים",
+      "gsf": "ללא גלוטן וללא סוכר"
+    },
     "items": {
       "parve": [
-        { "name": "עוגת שמרים שכבות ושוקולד", "sub": "Chocolate & Yeast layered Cake" },
-        { "name": "רולדת שמרים ופרג", "sub": "Poppy Seed Yeast roll cake" },
-        { "name": "רולדת שמרים שוקולד", "sub": "Chocolate Yeast Roll Cake" },
-        { "name": "רולדת שמרים קינמון ואגוזים", "sub": "Cinnamon & Nuts Yeast Roll" },
-        { "name": "רולדת שמרים חלווה", "sub": "Halva Yeast Roll" },
-        { "name": "עוגת שוקולד", "sub": "Chocolate Cake" },
-        { "name": "עוגת בראוניז", "sub": "Brownies Cake" },
-        { "name": "עוגת קרמבו", "sub": "Krembo Cake" }
+        {
+          "name": "עוגת שמרים שכבות ושוקולד",
+          "sub": "Chocolate & Yeast layered Cake"
+        },
+        {
+          "name": "רולדת שמרים ופרג",
+          "sub": "Poppy Seed Yeast roll cake"
+        },
+        {
+          "name": "רולדת שמרים שוקולד",
+          "sub": "Chocolate Yeast Roll Cake"
+        },
+        {
+          "name": "רולדת שמרים קינמון ואגוזים",
+          "sub": "Cinnamon & Nuts Yeast Roll"
+        },
+        {
+          "name": "רולדת שמרים חלווה",
+          "sub": "Halva Yeast Roll"
+        },
+        {
+          "name": "עוגת שוקולד",
+          "sub": "Chocolate Cake"
+        },
+        {
+          "name": "עוגת בראוניז",
+          "sub": "Brownies Cake"
+        },
+        {
+          "name": "עוגת קרמבו",
+          "sub": "Krembo Cake"
+        }
       ],
       "dairy": [
-        { "name": "רולדת שמרים שוקולד נוטלה", "sub": "Nutella Chocolate & Yeast Roll" },
-        { "name": "עוגת גבינה עם פירורים", "sub": "Crumbs Cheese Cake" },
-        { "name": "עוגת גבינה אפויה", "sub": "Baked Cheese Cake" },
-        { "name": "עוגת קרמשניט", "sub": "Cremeschnitte Cake" },
-        { "name": "עוגת קרמבו", "sub": "Krembo Cake" }
+        {
+          "name": "רולדת שמרים שוקולד נוטלה",
+          "sub": "Nutella Chocolate & Yeast Roll"
+        },
+        {
+          "name": "עוגת גבינה עם פירורים",
+          "sub": "Crumbs Cheese Cake"
+        },
+        {
+          "name": "עוגת גבינה אפויה",
+          "sub": "Baked Cheese Cake"
+        },
+        {
+          "name": "עוגת קרמשניט",
+          "sub": "Cremeschnitte Cake"
+        },
+        {
+          "name": "עוגת קרמבו",
+          "sub": "Krembo Cake"
+        }
       ],
       "dessert": [
-        { "name": "קינוחי שוקולד אישיים", "sub": "Personal Chocolate dessert" },
-        { "name": "כדורי טראפלס שוקולד", "sub": "Truffles" },
-        { "name": "מקרון במגוון צבעים וטעמים", "sub": "Macaron" },
-        { "name": "מקלות קינמון", "sub": "Cinnamon Rolls" },
-        { "name": "אצבעות שוקולד קפה על בסיס שברי וופלים", "sub": "Chocolate Coffee Bars" },
-        { "name": "מיני קרואסון שוקולד", "sub": "Croissant" },
-        { "name": "כוסיות טריקולד", "sub": "Tricholad With Meringue" },
-        { "name": "כוסיות מוס שוקולד על בסיס מרנג", "sub": "Mousse with Meringue Cup" },
-        { "name": "סופלה שוקולד", "sub": "Chocolate Soufflé" }
+        {
+          "name": "קינוחי שוקולד אישיים",
+          "sub": "Personal Chocolate dessert"
+        },
+        {
+          "name": "כדורי טראפלס שוקולד",
+          "sub": "Truffles"
+        },
+        {
+          "name": "מקרון במגוון צבעים וטעמים",
+          "sub": "Macaron"
+        },
+        {
+          "name": "מקלות קינמון",
+          "sub": "Cinnamon Rolls"
+        },
+        {
+          "name": "אצבעות שוקולד קפה על בסיס שברי וופלים",
+          "sub": "Chocolate Coffee Bars"
+        },
+        {
+          "name": "מיני קרואסון שוקולד",
+          "sub": "Croissant"
+        },
+        {
+          "name": "כוסיות טריקולד",
+          "sub": "Tricholad With Meringue"
+        },
+        {
+          "name": "כוסיות מוס שוקולד על בסיס מרנג",
+          "sub": "Mousse with Meringue Cup"
+        },
+        {
+          "name": "סופלה שוקולד",
+          "sub": "Chocolate Soufflé"
+        }
       ]
     }
   },
@@ -86,8 +171,19 @@
     "subscribed": "תודה! תוכנת הדוא\"ל שלכם תיפתח לשליחת ההרשמה אלינו.",
     "contactUs": "צור קשר"
   },
-  "contactBar": { "phone": "טלפון", "email": "אימייל", "whatsapp": "וואטסאפ", "chat": "צ'אט", "letsChat": "בואו נדבר!" },
-  "language": { "label": "שפה", "en": "English", "he": "עברית" },
+  "contactBar": {
+    "phone": "טלפון",
+    "email": "אימייל",
+    "whatsapp": "וואטסאפ",
+    "chat": "צ'אט",
+    "letsChat": "בואו נדבר!",
+    "contactUs": "צרו קשר"
+  },
+  "language": {
+    "label": "שפה",
+    "en": "English",
+    "he": "עברית"
+  },
   "admin": {
     "title": "עורך שפות",
     "subtitle": "עריכת קובצי השפה של האתר (מהמקור המרוחק כשמוגדר, אחרת מ-/locales), ואז יצירה והעתקה של ה-JSON.",
