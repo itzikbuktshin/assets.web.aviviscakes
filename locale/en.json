@@ -8,11 +8,11 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "menuNew": "Menu (New)",
     "about": "About",
     "admin": "Admin",
     "close": "Close menu",
-    "open": "Open menu"
+    "open": "Open menu",
+    "menuNew": "Menu (New)"
   },
   "home": {
     "handMade": "HAND MADE",
@@ -30,7 +30,8 @@
     "makeWish": "MAKE A WISH",
     "doubleTap": "#DOUBLE TAP",
     "ctaPastries": "PASTRIES",
-    "ctaMenu": "MENU"
+    "ctaMenu": "MENU",
+    "seePastries": "SEE OUR PASTRIES"
   },
   "about": {
     "eyebrow": "ABOUT",
@@ -41,6 +42,7 @@
   },
   "menu": {
     "eyebrow": "OUR",
+    "pastries": "PASTRIES",
     "title": "PASTRIES LIST",
     "parveLabel": "Parve Pastries",
     "dairyFree": "Dairy Free",
@@ -51,6 +53,12 @@
       "dairy": "DAIRY",
       "dessert": "DESSERT",
       "gsf": "GLUTEN / SUGAR FREE"
+    },
+    "subtitles": {
+      "parve": "Parve Pastries",
+      "dairy": "Dairy Pastries",
+      "dessert": "Desserts",
+      "gsf": "Gluten- and Sugar-Free"
     },
     "items": {
       "parve": [
@@ -168,7 +176,8 @@
     "email": "Email",
     "whatsapp": "WhatsApp",
     "chat": "Chat",
-    "letsChat": "Let's Chat!"
+    "letsChat": "Let's Chat!",
+    "contactUs": "Contact us"
   },
   "language": {
     "label": "Language",
