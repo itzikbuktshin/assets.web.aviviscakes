@@ -230,32 +230,39 @@
         "src": "https://lh3.googleusercontent.com/d/1zIwS2YX68Ijt2CHQkvUktFBYbkXs7GtF=w1600"
       },
       {
+        "item": "Snowy cookies",
+        "aspectRatio": "4/3",
+        "gradient": "linear-gradient(135deg,#5a3722,#2a160c)",
+        "alt": "Snowy cookies",
+        "src": "https://lh3.googleusercontent.com/d/1dDBP2L5oXlCBDUogBuGoy0yFx8DuhUN_=w1600"
+      },
+      {
         "item": "Croissant",
         "aspectRatio": "4/3",
         "gradient": "linear-gradient(135deg,#d8a860,#9c6f33)",
         "alt": "Mini chocolate croissant",
-        "src": null
+        "src": "https://lh3.googleusercontent.com/d/1Q6mF663x9Kz49wvpx2IMRx49CFlk7xfT=w1600"
       },
       {
         "item": "Tricholad With Meringue",
         "aspectRatio": "4/3",
         "gradient": "linear-gradient(135deg,#c7aee0,#8a6bb0)",
         "alt": "Tricholad with meringue",
-        "src": null
+        "src": "https://lh3.googleusercontent.com/d/1y1gBVGzFDs0X1KE288Yt62LVQgm-rsBP=w1600"
       },
       {
         "item": "Mousse with Meringue Cup",
         "aspectRatio": "4/3",
         "gradient": "linear-gradient(135deg,#6e5236,#2e2013)",
         "alt": "Chocolate mousse cup with meringue",
-        "src": null
+        "src": "https://lh3.googleusercontent.com/d/1oqhYY6hOo0dJJ4fxsL__EPvWpiQxV-s5=w1600"
       },
       {
         "item": "Chocolate Soufflé",
         "aspectRatio": "4/3",
         "gradient": "linear-gradient(135deg,#3f2416,#160c07)",
         "alt": "Chocolate soufflé",
-        "src": null
+        "src": "https://lh3.googleusercontent.com/d/1DvPz1e9GM8RdRZmuzyttmFgfPxX2XDMG=w1600"
       }
     ]
   }
