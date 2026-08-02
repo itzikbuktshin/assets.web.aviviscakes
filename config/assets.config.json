@@ -3,7 +3,8 @@
   "version": 1,
   "comment": "Catalog of every image placeholder in the site. `src` is null until a real image is supplied; components fall back to `gradient`. Phase 2: this file (and the referenced images) will be served from remote/external storage so admins can edit it privately — see `remote`.",
   "source": "local",
-  "logo": "https://lh3.googleusercontent.com/d/1nyHzSRQm1Eor3krMQ7pAZDs5MWzIIGxV=w1600",
+  "logo": "https://lh3.googleusercontent.com/d/1GNyOnZv8D1O5LILJaC43DquKVPxri1Ha=w1600",
+  
   "remote": {
     "enabled": false,
     "configUrl": null,
