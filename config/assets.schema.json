@@ -11,6 +11,7 @@
     "version": { "type": "integer", "minimum": 1 },
     "comment": { "type": "string" },
     "source": { "enum": ["local", "remote"] },
+    "logo": {"type": "string", "format": "uri" },
     "remote": {
       "type": "object",
       "additionalProperties": true,
