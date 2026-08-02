@@ -11,7 +11,11 @@
     "version": { "type": "integer", "minimum": 1 },
     "comment": { "type": "string" },
     "source": { "enum": ["local", "remote"] },
-    "logo": {"type": "string", "format": "uri" },
+    "logo": {
+      "type": ["string", "null"],
+      "format": "uri",
+      "description": "Logo image URL (absolute, or relative to remote.assetsBaseUrl)."
+    },
     "remote": {
       "type": "object",
       "additionalProperties": true,
