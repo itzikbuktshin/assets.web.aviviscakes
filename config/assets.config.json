@@ -101,6 +101,8 @@
     "parve": [
       {
         "item": "Chocolate & Yeast layered Cake",
+        "titleKey": "menu.items.parve.0.name",
+        "descriptionKey": "menu.items.parve.0.sub",
         "aspectRatio": "4/3",
         "gradient": "linear-gradient(135deg,#7a4a25,#3c2412)",
         "alt": "Chocolate & yeast layered cake",
@@ -108,6 +110,8 @@
       },
       {
         "item": "Poppy Seed Yeast roll cake",
+        "titleKey": "menu.items.parve.1.name",
+        "descriptionKey": "menu.items.parve.1.sub",
         "aspectRatio": "4/3",
         "gradient": "linear-gradient(135deg,#5a5468,#2a2636)",
         "alt": "Poppy seed yeast roll cake",
@@ -115,6 +119,8 @@
       },
       {
         "item": "Chocolate Yeast Roll Cake",
+        "titleKey": "menu.items.parve.2.name",
+        "descriptionKey": "menu.items.parve.2.sub",
         "aspectRatio": "4/3",
         "gradient": "linear-gradient(135deg,#6e4326,#2e1a0f)",
         "alt": "Chocolate yeast roll cake",
@@ -122,6 +128,8 @@
       },
       {
         "item": "Cinnamon & Nuts Yeast Roll",
+        "titleKey": "menu.items.parve.3.name",
+        "descriptionKey": "menu.items.parve.3.sub",
         "aspectRatio": "4/3",
         "gradient": "linear-gradient(135deg,#a9784a,#5c3a1e)",
         "alt": "Cinnamon & nuts yeast roll",
@@ -129,13 +137,17 @@
       },
       {
         "item": "Halva Yeast Roll",
+        "titleKey": "menu.items.parve.4.name",
+        "descriptionKey": "menu.items.parve.4.sub",
         "aspectRatio": "4/3",
         "gradient": "linear-gradient(135deg,#c9b48f,#8a7551)",
         "alt": "Halva yeast roll",
-        "src":"https://lh3.googleusercontent.com/d/1HOrXImilRynPFFqDA0wR6J7SeD4tbCq8=w1600"
+        "src": "https://lh3.googleusercontent.com/d/1HOrXImilRynPFFqDA0wR6J7SeD4tbCq8=w1600"
       },
       {
         "item": "Chocolate Cake",
+        "titleKey": "menu.items.parve.5.name",
+        "descriptionKey": "menu.items.parve.5.sub",
         "aspectRatio": "4/3",
         "gradient": "linear-gradient(135deg,#4a2c18,#1d100a)",
         "alt": "Chocolate cake",
@@ -143,6 +155,8 @@
       },
       {
         "item": "Brownies Cake",
+        "titleKey": "menu.items.parve.6.name",
+        "descriptionKey": "menu.items.parve.6.sub",
         "aspectRatio": "4/3",
         "gradient": "linear-gradient(135deg,#3a2216,#140b07)",
         "alt": "Brownies cake",
@@ -150,6 +164,8 @@
       },
       {
         "item": "Krembo Cake",
+        "titleKey": "menu.items.parve.7.name",
+        "descriptionKey": "menu.items.parve.7.sub",
         "aspectRatio": "4/3",
         "gradient": "linear-gradient(135deg,#5b4636,#241a12)",
         "alt": "Krembo cake",
@@ -159,6 +175,8 @@
     "dairy": [
       {
         "item": "Nutella Chocolate & Yeast Roll",
+        "titleKey": "menu.items.dairy.0.name",
+        "descriptionKey": "menu.items.dairy.0.sub",
         "aspectRatio": "4/3",
         "gradient": "linear-gradient(135deg,#6b4326,#2b1a0f)",
         "alt": "Nutella chocolate & yeast roll",
@@ -166,6 +184,8 @@
       },
       {
         "item": "Crumbs Cheese Cake",
+        "titleKey": "menu.items.dairy.1.name",
+        "descriptionKey": "menu.items.dairy.1.sub",
         "aspectRatio": "4/3",
         "gradient": "linear-gradient(135deg,#e6d6ad,#b39b6a)",
         "alt": "Crumbs cheese cake",
@@ -173,6 +193,8 @@
       },
       {
         "item": "Baked Cheese Cake",
+        "titleKey": "menu.items.dairy.2.name",
+        "descriptionKey": "menu.items.dairy.2.sub",
         "aspectRatio": "4/3",
         "gradient": "linear-gradient(135deg,#e9c98f,#c39a54)",
         "alt": "Baked cheese cake",
@@ -180,6 +202,8 @@
       },
       {
         "item": "Cremeschnitte Cake",
+        "titleKey": "menu.items.dairy.3.name",
+        "descriptionKey": "menu.items.dairy.3.sub",
         "aspectRatio": "4/3",
         "gradient": "linear-gradient(135deg,#f0e6cf,#c9b183)",
         "alt": "Cremeschnitte cake",
@@ -187,6 +211,8 @@
       },
       {
         "item": "Krembo Cake",
+        "titleKey": "menu.items.dairy.4.name",
+        "descriptionKey": "menu.items.dairy.4.sub",
         "aspectRatio": "4/3",
         "gradient": "linear-gradient(135deg,#5b4636,#241a12)",
         "alt": "Krembo cake",
@@ -196,6 +222,8 @@
     "dessert": [
       {
         "item": "Personal Chocolate dessert",
+        "titleKey": "menu.items.dessert.0.name",
+        "descriptionKey": "menu.items.dessert.0.sub",
         "aspectRatio": "4/3",
         "gradient": "linear-gradient(135deg,#4a2c18,#1d100a)",
         "alt": "Personal chocolate dessert",
@@ -203,6 +231,8 @@
       },
       {
         "item": "Truffles",
+        "titleKey": "menu.items.dessert.1.name",
+        "descriptionKey": "menu.items.dessert.1.sub",
         "aspectRatio": "4/3",
         "gradient": "linear-gradient(135deg,#3a2216,#140b07)",
         "alt": "Chocolate truffles",
@@ -210,6 +240,8 @@
       },
       {
         "item": "Macaron",
+        "titleKey": "menu.items.dessert.2.name",
+        "descriptionKey": "menu.items.dessert.2.sub",
         "aspectRatio": "4/3",
         "gradient": "linear-gradient(135deg,#e79bb4,#c96f9a)",
         "alt": "Macarons",
@@ -217,6 +249,8 @@
       },
       {
         "item": "Cinnamon Rolls",
+        "titleKey": "menu.items.dessert.3.name",
+        "descriptionKey": "menu.items.dessert.3.sub",
         "aspectRatio": "4/3",
         "gradient": "linear-gradient(135deg,#b38351,#6d4423)",
         "alt": "Cinnamon rolls",
@@ -224,6 +258,8 @@
       },
       {
         "item": "Chocolate Coffee Bars",
+        "titleKey": "menu.items.dessert.4.name",
+        "descriptionKey": "menu.items.dessert.4.sub",
         "aspectRatio": "4/3",
         "gradient": "linear-gradient(135deg,#5a3a22,#241408)",
         "alt": "Chocolate coffee bars",
@@ -231,6 +267,8 @@
       },
       {
         "item": "Snowy cookies",
+        "titleKey": "menu.items.dessert.5.name",
+        "descriptionKey": "menu.items.dessert.5.sub",
         "aspectRatio": "4/3",
         "gradient": "linear-gradient(135deg,#5a3722,#2a160c)",
         "alt": "Snowy cookies",
@@ -238,6 +276,8 @@
       },
       {
         "item": "Croissant",
+        "titleKey": "menu.items.dessert.6.name",
+        "descriptionKey": "menu.items.dessert.6.sub",
         "aspectRatio": "4/3",
         "gradient": "linear-gradient(135deg,#d8a860,#9c6f33)",
         "alt": "Mini chocolate croissant",
@@ -245,6 +285,8 @@
       },
       {
         "item": "Tricholad With Meringue",
+        "titleKey": "menu.items.dessert.7.name",
+        "descriptionKey": "menu.items.dessert.7.sub",
         "aspectRatio": "4/3",
         "gradient": "linear-gradient(135deg,#c7aee0,#8a6bb0)",
         "alt": "Tricholad with meringue",
@@ -252,6 +294,8 @@
       },
       {
         "item": "Mousse with Meringue Cup",
+        "titleKey": "menu.items.dessert.8.name",
+        "descriptionKey": "menu.items.dessert.8.sub",
         "aspectRatio": "4/3",
         "gradient": "linear-gradient(135deg,#6e5236,#2e2013)",
         "alt": "Chocolate mousse cup with meringue",
@@ -259,6 +303,8 @@
       },
       {
         "item": "Chocolate Soufflé",
+        "titleKey": "menu.items.dessert.9.name",
+        "descriptionKey": "menu.items.dessert.9.sub",
         "aspectRatio": "4/3",
         "gradient": "linear-gradient(135deg,#3f2416,#160c07)",
         "alt": "Chocolate soufflé",

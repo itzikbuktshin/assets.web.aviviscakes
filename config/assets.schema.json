@@ -50,6 +50,8 @@
       "additionalProperties": false,
       "properties": {
         "item": { "type": "string", "description": "Product name this photo belongs to (menu slots only)." },
+        "titleKey": { "type": "string", "description": "i18n key for the product title (menu slots)." },
+        "descriptionKey": { "type": "string", "description": "i18n key for the product description (menu slots)." },
         "description": { "type": "string" },
         "usedIn": {
           "type": "array",
